@@ -1,0 +1,28 @@
+requirement:
+	opencv3    cuda9.0   python3	tensorflow_gpu>=1.14.0	pytorch>=1.1.0
+
+
+build the project:
+	mkdir build && cd build
+	cmake ..
+	make
+
+
+
+filter images:
+	step1:
+		put the tars of data into "./data/tar" file
+
+	step2:
+		Run commond
+			user$ bash run.sh parameter1 parameter2
+		  parameter1: directory for stored results
+		  parameter2: if your original data is just like '*.tar.gz', and run the program for the first time, untar
+		      for example:
+			user$ bash run.sh ./data/test1 untar
+		      so if you change some paras and you want to filter images again, just do:
+			user$ bash run.sh ./data/test1
+
+	finally:
+		available images located in:
+			parameter1
