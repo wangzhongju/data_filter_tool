@@ -1,15 +1,21 @@
-requirement:
+# requirement:
+
+
 	opencv3    cuda9.0   python3	tensorflow_gpu>=1.14.0	pytorch>=1.1.0
 
 
-build the project:
+#  build the project:
+
+
 	mkdir build && cd build
 	cmake ..
 	make
 
 
 
-filter images:
+# filter images:
+
+
 	step1:
 		put the tars of data into "./data/tar" file
 
@@ -26,3 +32,10 @@ filter images:
 	finally:
 		available images located in:
 			parameter1
+			
+
+# TIP:
+	
+	parameter1:
+	    true: ./data/test1
+	   false: ./data/test1/
