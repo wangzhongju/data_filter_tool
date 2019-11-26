@@ -977,8 +977,24 @@ ln -s /dev/null /dev/raw1394
 	3. 若不想merge远程和本地修改
 		$ git branch [name]
 		$ git push -u origin [name]
-		
 
+***git remove remote branch
+	1. check the list of remote branch
+		$ git branch -r
+	   e.g. there are two branches here
+		origin/master
+		origin/wangzhongju
+	2. now let's remove the branch 'origin/wangzhongju'
+		$ git branch -r -d origin/wangzhongju
+		$ git push origin :wangzhongju
+
+
+
+***error: Your local changes to the following files would be overwritten by merge:
+	1. git stash
+	   //备份当前的工作区的内容，从最近的一次提交中读取相关内容，让工作区保证和上次提交的内容一致。同时，将当前的工作区内容保存到Git栈中
+	2. git pull
+	3. git stash pop
 
 
 
