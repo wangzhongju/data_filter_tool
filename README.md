@@ -18,9 +18,9 @@
 
 	step1:
 		put the tars of data into "./data/tar" file
-	        furthermore, if your original data is a folder contained images, you just need put the folder into ./data/
+	        furthermore, if your original data is a folder contained images, you just need place the folder into ./data/
 		for example:
-			if you have a folder named 'test' what contained some images, put folder 'test' into ./data
+			if you have a folder named 'test' what contained some images, place folder 'test' into ./data
 		    run:
 			user$ bash run.sh ./data/test 
 	step2:
