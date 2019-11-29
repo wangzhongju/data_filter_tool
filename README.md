@@ -17,8 +17,8 @@
 
 
 	step1:
-		put the tars of data into "./data/tar" file
-	        furthermore, if your original data is a folder contained images, you just need place the folder into ./data/
+		place the tars of data in "./data/tar" file
+	        furthermore, if your original data is a folder contained images, you just need place the folder in ./data/
 		for example:
 			if you have a folder named 'test' what contained some images, place folder 'test' into ./data
 		    run:
