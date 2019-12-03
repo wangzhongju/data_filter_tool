@@ -5,7 +5,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 set(SOURCE_FILES ./src/main.cpp)
 
 # fing opencv
-set(OpenCV_DIR "/path/to/you/opencv4.0/build_dir/") #TODO: change the OpenCV_DIR
+set(OpenCV_DIR "/path/to/you/opencv3.0/build_dir/") #TODO: change the OpenCV_DIR
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 link_directories(${OpenCV_LIBRARY_DIRS})
