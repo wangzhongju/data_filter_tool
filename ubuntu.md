@@ -996,6 +996,18 @@ ln -s /dev/null /dev/raw1394
 	2. git pull
 	3. git stash pop
 
+***How to exit a git merge asking for commit message
+	you can check ~/.gitconfig for editor, in my case (cat ~/.gitconfig):
+		[user]
+		    name = somename
+		    email = somemail@gmail.com
+		[core]
+		    editor = vim
+		    excludesfile = /home/mypath/.gitignore_global
+		[color]
+		  ui = auto
+		  # other settings here
+
 
 
 
