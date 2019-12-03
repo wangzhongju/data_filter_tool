@@ -1008,31 +1008,7 @@ ln -s /dev/null /dev/raw1394
 		  ui = auto
 		  # other settings here
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+***https://www.pinterest.com/
 
 
 	 
